@@ -1,0 +1,152 @@
+body{
+  background-color: darkslategrey;
+}
+.branding{
+  font-size:17px;
+}
+.top-bar{
+  background-color: rgba(17, 17, 49, 0.637);
+  color: white;
+}
+.showcase{
+  background-image: url(../images/showcase2.jpg); 
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-weight: 6px;
+  height: 600px;
+  padding: 140px 100px;
+  color: white;
+}
+
+.showcase h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.showcase hr{
+  width: 500px;
+  margin: auto;
+  border-width: 3px;
+  border-color: rgb(44, 3, 3);
+}
+ .showcase p{
+   font-size: 15px;
+   padding-top: 16px;
+   padding-bottom: 25px;
+ }
+
+ .section{
+   padding: 40px 0;
+   font-weight:3px;
+ }
+
+ .section h2{
+   padding:0 0;
+   margin:0 0;
+ }
+ .section .fa{
+   font-size: 50px;
+ }
+ .section img{
+   position:relative;
+   width:10%;
+ }
+
+ .about img{
+   width: 100%;
+   size: stretch;
+   position: relative;
+
+ }
+ .section3{
+   background-color:black;
+   color: rgb(0, 255, 0);
+ }
+.section3 button{
+  color:white;
+  background-color:rgba(255, 255, 255, 0.342);
+  border: none;
+  width: 100%;
+  padding-right: 0px 0px;
+  margin-right: 0px;
+}
+.section3 button:hover{
+  color: red;
+  background-color: black;
+  -webkit-transition: 1s ease;
+  -0- transition: 1s ease;
+  transition: 1s ease;
+  -webkit-transform: scale(1.1);
+}
+.section3 hr{
+  width:100%;
+  margin: auto;
+  border-width: 1px;
+  border-color:grey ;
+
+}
+.services{
+  background-color:rgba(17, 17, 49, 0.637);
+  color: white;
+  padding-top: 10px;
+}
+
+.contact{
+  background-color: rgba(17, 17, 49, 0.637);
+  color: white;
+  padding: 10px;
+}
+
+#contactform{
+  background-image: url(../images/contact.jpeg);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: center;
+  color: white;
+}
+input{
+  background-color: rgba(59, 56, 56, 0.459);
+  color: white;
+}
+input:active{
+  background-color: rgb(59, 56, 56);
+  color: white;
+}
+textarea{
+  background-color:  rgba(59, 56, 56, 0.459);
+  color: white;
+}
+textarea:active{
+  background-color:  rgb(59, 56, 56);
+  color: white;
+}
+ @media only screen and (max-width:600px){
+   body{
+     margin-top: 190px;
+  }
+
+  .top-bar{
+    height: 190px;
+  }
+
+.showcase{
+  height: 400px;
+  padding: 60px 0;
+  }
+}
+
+.footer{
+  text-align: center;
+  background-color: rgba(17, 17, 49, 0.637);
+  color: white;
+}
+
+hr{
+  width: auto;
+  margin: auto;
+  border-width: 3px;
+  border-color:  darkslategrey;
+  
+}
